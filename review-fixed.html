@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung - Profil Kampus</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 32px;
+    }
+
+    nav a {
+      color: #cccccc;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #003366;
+      margin-top: 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    form p {
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      max-width: 400px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #003366;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 16px;
+      font-size: 14px;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>STT Cipasung</h1>
+    <nav>
+      <a href="#about">Home</a>
+      <a href="#about">Programs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+      <img src="https://placehold.co/600x300?text=STT+Cipasung" alt="Gedung STT Cipasung">
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="reviewer-name">Name</label>
+          <input type="text" id="reviewer-name" name="name" placeholder="Name" required>
+        </p>
+        <p>
+          <label for="reviewer-email">Email</label>
+          <input type="email" id="reviewer-email" name="email" placeholder="Email" required>
+        </p>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2026 STT Cipasung</p>
+  </footer>
+
+</body>
+</html>

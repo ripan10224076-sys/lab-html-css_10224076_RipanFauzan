@@ -1,0 +1,43 @@
+h2 {
+  color: navy;
+}
+
+.note {
+  background-color: yellow;
+}
+
+.featured {
+  border: 2px solid;
+}
+
+p.note {
+  font-style: italic;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+h1, .tagline {
+  font-family: Georgia, serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a[target="_blank"] {
+  color: red;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+#top {
+  background-color: #f0f0f0;
+}
